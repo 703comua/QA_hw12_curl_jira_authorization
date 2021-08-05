@@ -1,0 +1,14 @@
+Request URL: https://jira.ithillel.com/login.jsp
+Request Method: POST
+Content-Type: application/x-www-form-urlencoded
+
+curl -v -d "os_username=703comua&os_password=bDbA57vES4Nt8CS&os_cookie=true&os_destination=&user_role=&atl_token=&login=Log+In" -H "Content-Type: application/x-www-form-urlencoded" https://jira.ithillel.com/login.jsp
+
+
+echo "# QA_hw12_curl_jira_authorization" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/703comua/QA_hw12_curl_jira_authorization.git
+git push -u origin main
